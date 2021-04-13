@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+
+/* :root {
+  --primary-color: #36adb9;
+} */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-size: 100%;
+}
+
+body {
+    background: url("../images/fish.jpeg") center;
+    text-align: center;
+    font-family: cursive;
+    padding: 10px;
+}
+
+header {
+    padding: 20px;
+}
+
+.logo {
+    color: #244f32;
+    cursor: pointer;
+}
+
+.a {
+    color: #cbd586;
+}
+
+.main-nav {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.main-nav li {
+    display: inline;
+    padding: 5px;
+}
+
+.main-nav a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #cbd586;
+    padding: 7px;
+}
+
+.main-nav a:hover {
+    background-color: #244f32;
+    color: #cbd586;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+#active {
+    background-color: #cbd586;
+    color: #244f32;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+section {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(36, 37, 32, 0.4);
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    section {
+        position: relative;
+        top: 7vh;
+    }
+}
+
+@media screen and (min-width: 900px){
+    section {
+        width: 70%;
+        position: relative;
+        top: 12vh;
+    }
+}
+
+section h1 {
+    color: #244f32;
+    font-size: 2rem;
+}
+
+section p {
+    text-align: justify;
+    color: #cbd586;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+
+button {
+    padding: 12px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.btn1 {
+    background: #244f32;
+    color: #cbd586;
+}
+
+.btn2 {
+    background-color: #cbd586;
+    color: #244f32;
+}
+
+.btn1:hover {
+    background-color: #cbd586;
+    color: #244f32;
+    transition: all 1s;
+}
+
+.btn2:hover {
+    background: #244f32;
+    color: #cbd586;
+    transition: all 1s;
+}
